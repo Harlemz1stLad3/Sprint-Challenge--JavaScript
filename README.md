@@ -54,9 +54,9 @@ A closure is essentially a chain of scopes. Closure is the property which allows
 
 GLOBAL SCOPE - When in the global scope, the value of “this” will be the window/console object.
 
-IMPLICIT BINDING - Whenever a function is called by a preceding dot, the object left of the dog gets ‘this’.
+IMPLICIT BINDING - Whenever a function is called by a preceding dot, the object left of the dot gets ‘this’.
 
-NEW BINDING - Whenever a constructor function is used, ‘this’ refers to the specific instance of the object that is created and returned by the constructor function.
+NEW BINDING - Whenever a constructor function is used, ‘this’ refers to the specific instance of the object that is created and returned by a new function.
 
 EXPLICIT BINDING - Whenever Javascript's call or apply method is used, we're explicitly defining what 'this' is referring to.
 
